@@ -1,0 +1,25 @@
+.card-container{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  background-color: #e4e4e4;
+  padding: 20px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.card-container.concluido {
+  background-color: #a3efcf;
+}
+
+.button-container {
+  display: flex;
+  gap: 25px;
+}
+
+.button-container button {
+  background-color: #F4F4F4;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}

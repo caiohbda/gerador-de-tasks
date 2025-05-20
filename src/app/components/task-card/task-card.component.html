@@ -1,0 +1,9 @@
+@if (!removido) {
+  <div class="card-container" [class.concluido]="concluido">
+    <h3>{{ task.title}}</h3>
+    <div class="button-container">
+      <button (click)="concluir()">Concluir</button>
+      <button (click)="remover()">Remover</button>
+    </div>
+  </div>
+}
