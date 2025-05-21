@@ -1,3 +1,6 @@
-<app-task-form (novaTask)="addTask($event)"></app-task-form>
-
-<app-task-card *ngFor="let task of tasks" [task]="task"></app-task-card>
+<div class="container">
+  <app-task-form (novaTask)="addTask($event)"></app-task-form>
+  <div class="task-container">
+    <app-task-card *ngFor="let task of tasks" [task]="task"></app-task-card>
+  </div>
+</div>

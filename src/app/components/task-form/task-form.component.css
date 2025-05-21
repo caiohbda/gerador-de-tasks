@@ -1,0 +1,18 @@
+.form-task{
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.input-task{
+  border-radius: 8px;
+  width: 250px;
+  height: 25px;
+}
+
+.button-task {
+  width: 120px;
+  background-color: transparent;
+  border-radius: 8px;
+}

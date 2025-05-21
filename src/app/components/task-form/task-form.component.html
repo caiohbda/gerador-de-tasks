@@ -1,4 +1,4 @@
-<form (ngSubmit)="submit()" [formGroup]="form" novalidate>
-  <input formControlName="title" placeholder="Nova tarefa" />
-  <button type="submit" [disabled]="form.invalid">Adicionar</button>
+<form (ngSubmit)="submit()" [formGroup]="form" class="form-task" >
+  <input formControlName="title" placeholder="Nova tarefa" class="input-task"/>
+  <button type="submit" class="button-task">Adicionar</button>
 </form>
